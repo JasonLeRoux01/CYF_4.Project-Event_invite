@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Invitation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        #party {
+            height: 100px;
+        }
+        .invitation-card {
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            width: 300px;
+            background-image: linear-gradient(to right, rgb(235, 84, 240) , rgb(29, 207, 242));
+        }
+        .invitation-card h1 {
+            color: lightblue;
+            margin: 0;
+        }
+        .invitation-card p {
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .invitation-card .date {
+            font-weight: bold;
+            color: red;
+        }
+        .invitation-card .rsvp {
+            margin-top: 20px;
+            font-size: 14px;
+            color: red;
+        }
+        .button {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 15px;
+        }
+        .button:hover {
+            background-color: #2980b9;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="invitation-card">
+        <h1>You're Invited!</h1>
+        <img id="party" src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/seasonal/hopper-partying.png" alt="hopper-partying">
+        <p>Join us for a special event</p>
+        <p class="date">Saturday, February 15, 2025</p>
+        <p>Location: Central Cape Town, CPT</p>
+        <a href="#" class="button">RSVP Now</a>
+        <p class="rsvp">Please respond by February 1, 2025</p>
+    </div>
+</body>
+</html>
